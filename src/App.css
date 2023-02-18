@@ -1,0 +1,355 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.ant-form {
+  font-family: 'Open Sans', sans-serif;
+}
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 2px 2px #00000033;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 3px;
+}
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 2px;
+}
+.footer1{
+  height: 60px;
+  color: #e93467;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.itemCard,
+.itemCardBadge {
+  margin: 8px;
+}
+.itemCardImage {
+  height: 150px !important;
+  object-fit: scale-down;
+}
+.soppingCartIcon {
+  font-size: 30px;
+  margin-right: 16px;
+  cursor: pointer;
+  margin-top: 3px;
+ 
+}
+:where(.css-dev-only-do-not-override-ewsw4z).ant-badge .ant-badge-count {
+  background-color: #e93467;
+}
+
+:where(.css-dev-only-do-not-override-1s3dcof).ant-badge .ant-badge-count {
+  z-index: auto;
+  min-width: 20px;
+  height: 20px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  white-space: nowrap;
+  text-align: center;
+  background: #e93467;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #ffffff;
+  transition: background 0.2s;
+  
+}
+:where(.css-dev-only-do-not-override-1s3dcof).ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: inline-block;
+  margin-inline-end: 4px;
+  font-size: 14px;
+  font-family: SimSun,sans-serif;
+  line-height: 1;
+  content: "";
+}
+.carousel {
+  width: 100%;
+  height: 40px;
+
+  /* Add this */
+  top: 0;
+  left: 0;
+}
+.soppingCartIcontes {
+  margin-right: 40px;
+  background: #e93467;
+}
+
+.productsContainer {
+  padding: 8px;
+}
+.appMenu {
+  border: none;
+  /* margin-right: 30px; */
+  margin-left: 25px;
+}
+.appMenu:hover{
+  border: none;
+ color: #e93467;
+
+}
+
+.site-card-wrapper {
+  padding: 30px;
+  background: #ececec;
+  margin-top: 43.3%;
+  /* padding-left: 15%; */
+}
+
+[data-theme="dark"] .site-card-wrapper {
+  background: #303030;
+}
+.foot ul li {
+  padding: 6px 0px;
+}
+.help-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+.help-layout nav a{
+  padding: 10px;
+  border:1px solid #e93467;
+  border-radius: 4px;
+  text-decoration: none;
+  color:#000;
+}
+.help-layout nav a:hover{
+  border-color: #e93467;
+}
+.help-layout nav a.active {
+  background: #e93467;
+}
+.PhoneInputInput{
+  border: 1px solid #BEC2C6;
+  padding: 5px;
+  border-radius:0rem 0.375rem 0.375rem 0rem;
+  height:30px;
+  width: 340px;
+}
+
+.PhoneInputCountry{
+  border: 1px solid #BEC2C6;
+  margin-right:0px;
+  padding: 5px;
+  border-radius:0.375rem 0rem  0rem 0.375rem ;
+}
+.PhoneInputCountrySelectArrow{
+  visibility: hidden;
+}
+.PhoneInputInput{
+  width: 340px;
+}
+input[type="tel"] {
+  width: 340px;
+}
+select{
+height: 50px;
+color: #707070;
+width: 95% ;
+border-radius: 5px;
+border: 1px solid  rgb(175, 172, 172);
+margin-left: 2em;
+
+}
+.boxSearch{
+  display: flex;
+}
+:where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal >.ant-menu-item:hover::after, :where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu:hover::after, :where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal >.ant-menu-item-active::after, :where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-active::after, :where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal >.ant-menu-item-open::after, :where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-open::after {
+  border-width: 2px;
+  border-bottom-color: #e93467;
+}
+
+:where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after, :where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected::after {
+    border-width: 2px;
+    border-bottom-color: #e93467;
+}
+:where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected, :where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected {
+  color: #e93467;
+  background-color: transparent;
+}
+
+.form-wrapper {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 400px;
+ 
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.login-form-container{
+padding: -490px;
+margin-top: 20px;
+margin-left: -100px;
+margin-right: 20px; 
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+  input {
+    width: 100%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    /* &:focus {
+      border: 2px solid rgba(0, 206, 158, 1);
+    } */
+  }
+  textarea {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    /* &:focus {
+      border: 2px solid rgba(0, 206, 158, 1);
+    } */
+  }
+  label {
+    margin-top: 5px;
+  }
+  input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: #e93467;
+    color: white;
+    border: none;
+    width: 90%;
+    height: 45px;
+  }
+/* .PhoneInputCountrySelect{
+  padding: 20px;
+} */
+div.PhoneInputCountry{
+  margin-right: -1px;
+  
+}
+#basic_mobile{
+  height: 39px;
+}
+div .ant-form-item-explain-error{
+  padding-left: 70px;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 20px;
+}
+.contact-wrapper {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-right: 400px; 
+  height: 500px;
+  margin-bottom: 100px;
+
+  /* max-width: 400px;
+  height: 600px; */
+}
+.contact-form-container{
+padding: -490px;
+margin-top: 20px;
+margin-left: -100px;
+margin-right: 20px; 
+
+}
+.login-form-button {
+  display: block;
+  margin: 0 auto;
+}
+.formSign-wrapper{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 350px;
+  margin-right: 400px; 
+  height: 600px;
+}
+.signup-form-container{
+  padding: -490px;
+margin-top: 20px;
+margin-left: -100px;
+margin-right: 20px; 
+}
+.PhoneInputInput{
+  border: 1px solid #BEC2C6;
+  padding: 5px;
+  border-radius:0rem 0.375rem 0.375rem 0rem;
+  height:25px;
+ 
+}
+
+.PhoneInputCountry{
+  border: 1px solid #BEC2C6;
+  margin-right:-3px;
+  padding: 5px;
+  border-radius:0.25rem 0rem  0rem 0.275rem ;
+}
+.PhoneInputCountrySelectArrow{
+  visibility: hidden;
+}
+:where(.css-dev-only-do-not-override-1s3dcof).ant-input-search .ant-input:hover, :where(.css-dev-only-do-not-override-1s3dcof).ant-input-search .ant-input:focus {
+  border-color: #e93467;
+}
+:where(.css-dev-only-do-not-override-1s3dcof).ant-btn-default:not(:disabled):hover {
+  color: #e93467;
+  border-color: #e93467;
+}
+.anticon anticon-search{
+  color: #e93467;
+
+}
+:where(.css-dev-only-do-not-override-1s3dcof).ant-input-group .ant-input{
+  height:40px;
+}
+:where(.css-dev-only-do-not-override-1s3dcof).ant-input-search .ant-input-search-button {
+  height: 40px;
+  width:50px;
+  color: #e93467;
+}
